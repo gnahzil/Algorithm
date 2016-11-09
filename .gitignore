@@ -1,0 +1,4 @@
+﻿# Java:
+*.class
+.metadata
+RemoteSystemsTempFiles
