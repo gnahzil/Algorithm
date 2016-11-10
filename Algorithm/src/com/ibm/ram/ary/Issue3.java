@@ -25,7 +25,7 @@ public class Issue3 {
 	}
 	
 	public static void main(String[] args) {
-		Stack<Integer> stack1 = new Stack<>();
+		Stack<Integer> stack1 = new Stack<Integer>();
 		stack1.push(3);
 		stack1.push(2);
 		stack1.push(1);
