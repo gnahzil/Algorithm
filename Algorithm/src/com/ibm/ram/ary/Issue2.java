@@ -2,12 +2,12 @@ package com.ibm.ram.ary;
 
 import java.util.Stack;
 
-public class TwoStackQueue {
+public class Issue2 {
 
 	private Stack<Integer> stackPush;
 	private Stack<Integer> stackPop;
 	
-	public TwoStackQueue() {
+	public Issue2() {
 		stackPush = new Stack<Integer>();
 		stackPop = new Stack<Integer>();
 	}
@@ -40,7 +40,7 @@ public class TwoStackQueue {
 	}
 	
 	public static void main(String[] args) {
-		TwoStackQueue tsq = new TwoStackQueue();
+		Issue2 tsq = new Issue2();
 		tsq.add(3);
 		tsq.add(4);
 		tsq.add(1);

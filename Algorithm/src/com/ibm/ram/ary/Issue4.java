@@ -3,7 +3,7 @@ package com.ibm.ram.ary;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class DogCatQueue {
+public class Issue4 {
 	
 	public class Pet {
 		private String type;
@@ -53,7 +53,7 @@ public class DogCatQueue {
 	private Queue<PetEnterQueue> catQ;
 	private int count;
 	
-	public DogCatQueue() {
+	public Issue4() {
 		this.dogQ = new LinkedList<PetEnterQueue>();
 		this.catQ = new LinkedList<PetEnterQueue>();
 		this.count = 0;

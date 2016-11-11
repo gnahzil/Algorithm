@@ -2,12 +2,12 @@ package com.ibm.ram.ary;
 
 import java.util.Stack;
 
-public class MyStack1 {
+public class Issue1 {
 	
 	private Stack<Integer> stackData;
 	private Stack<Integer> stackMin;
 	
-	public MyStack1() {
+	public Issue1() {
 		stackData = new Stack<Integer>();
 		stackMin = new Stack<Integer>();
 	}
@@ -37,7 +37,7 @@ public class MyStack1 {
 	}
 	
 	public static void main(String[] args) {
-		MyStack1 ms = new MyStack1();
+		Issue1 ms = new Issue1();
 		ms.push(2);
 		ms.push(3);
 		ms.push(1);
