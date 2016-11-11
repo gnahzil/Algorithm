@@ -2,8 +2,6 @@ package com.ibm.ram.ary;
 
 import java.util.LinkedList;
 
-import javax.naming.LinkLoopException;
-
 public class Issue7 {
 	
 	//∏¥‘”∂»O(n*w)
